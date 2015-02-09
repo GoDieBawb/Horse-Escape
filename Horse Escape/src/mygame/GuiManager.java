@@ -121,8 +121,8 @@ public class GuiManager {
         screen.addElement(restartDisplay);
         restartDisplay.setFontSize(screen.getWidth()/18);
         restartDisplay.setDimensions(screen.getWidth() / 6, screen.getHeight() / 9);
-        restartDisplay.setText("Touch to Restart");
-        restartDisplay.setPosition(screen.getWidth() / 2f - restartDisplay.getWidth() * 1.5f, screen.getHeight() / 2 - restartDisplay.getHeight() / 2);
+        restartDisplay.setText("Touch to R estart");
+        restartDisplay.setPosition(screen.getWidth() / 2f - restartDisplay.getWidth() * 1.5f, screen.getHeight() / 1.5f - restartDisplay.getHeight() / 2);
         restartDisplay.hide();         
         
     }
@@ -145,7 +145,7 @@ public class GuiManager {
         screen.addElement(highDisplay);
         highDisplay.setFontSize(screen.getWidth()/18);
         highDisplay.setDimensions(screen.getWidth() / 6, screen.getHeight() / 9);
-        highDisplay.setText("Touch to high");
+        highDisplay.setText("         ");
         highDisplay.setPosition(restartDisplay.getPosition().x, restartDisplay.getPosition().y - scoreDisplay.getHeight()*1.25f);
         highDisplay.hide(); 
         
@@ -166,8 +166,8 @@ public class GuiManager {
     public void showEndGame(boolean newHigh, int score, int currentHighScore) {
         
         if (newHigh) {
-            scoreDisplay.setText("New High Score: " + score);
-            highDisplay.setText("Old HighScore: " + currentHighScore);
+            scoreDisplay.setText("New H igh Score: " + score);
+            highDisplay.setText("Old H ighScore: " + currentHighScore);
         }
         
         else {
