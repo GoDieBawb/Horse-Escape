@@ -5,6 +5,7 @@
 package mygame;
 
 import com.jme3.asset.AssetManager;
+import com.jme3.asset.TextureKey;
 import com.jme3.material.Material;
 import com.jme3.material.RenderState;
 import com.jme3.scene.Geometry;
@@ -45,7 +46,11 @@ public class ShadeChanger {
         
                     else if (geom.getMaterial().getTextureParam("DiffuseMap_1") != null) {
             
-                        tat.setTexture("Alpha", geom.getMaterial().getTextureParam("AlphaMap").getTextureValue());
+                        String     alTexPath  = geom.getMaterial().getTextureParam("AlphaMap").getTextureValue().getName().substring(1);
+                        TextureKey alkey      = new TextureKey(alTexPath, false);
+                        Texture    alTex      = assetManager.loadTexture(alkey);  
+                        tat.setTexture("Alpha", alTex);
+                        //tat.setTexture("Alpha", geom.getMaterial().getTextureParam("AlphaMap").getTextureValue());
           
                         if (geom.getMaterial().getTextureParam("DiffuseMap") != null) {
            

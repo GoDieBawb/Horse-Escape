@@ -10,4 +10,12 @@
 /home/bob/Documents/Github/Horse-Escape/Horse Escape/mobile/res/layout/main.xml \
 /home/bob/Documents/Github/Horse-Escape/Horse Escape/mobile/res/drawable-mdpi/ic_launcher.png \
 /home/bob/Documents/Github/Horse-Escape/Horse Escape/mobile/res/drawable-mdpi/splash.png \
+/home/bob/Documents/Github/Horse-Escape/Horse Escape/mobile/bin/res/drawable-hdpi/ic_launcher.png \
+/home/bob/Documents/Github/Horse-Escape/Horse Escape/mobile/bin/res/drawable-hdpi/splash.png \
+/home/bob/Documents/Github/Horse-Escape/Horse Escape/mobile/bin/res/drawable-ldpi/ic_launcher.png \
+/home/bob/Documents/Github/Horse-Escape/Horse Escape/mobile/bin/res/drawable-ldpi/splash.png \
+/home/bob/Documents/Github/Horse-Escape/Horse Escape/mobile/bin/res/drawable-xhdpi/ic_launcher.png \
+/home/bob/Documents/Github/Horse-Escape/Horse Escape/mobile/bin/res/drawable-xhdpi/splash.png \
+/home/bob/Documents/Github/Horse-Escape/Horse Escape/mobile/bin/res/drawable-mdpi/ic_launcher.png \
+/home/bob/Documents/Github/Horse-Escape/Horse Escape/mobile/bin/res/drawable-mdpi/splash.png \
 /home/bob/Documents/Github/Horse-Escape/Horse Escape/mobile/bin/AndroidManifest.xml \
